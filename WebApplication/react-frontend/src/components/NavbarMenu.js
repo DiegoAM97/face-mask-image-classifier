@@ -14,7 +14,7 @@ const NavbarMenu = () => {
     return (
         <>
             <div className='basis-1/3 flex flex-wrap justify-end pr-4 sm:hidden'>
-                    <span onClick={() => setOpen(!open)} className='cursor-pointer relative top-0.5'><ion-icon name={open ? 'close' : 'menu'}></ion-icon></span>
+                    <span onClick={() => setOpen(prevState => !prevState)} className='cursor-pointer relative top-0.5'><ion-icon name={open ? 'close' : 'menu'}></ion-icon></span>
             </div>
             <ul className={`${open ? 'absolute w-full' : 'absolute opacity-0 left-[-5rem]'} text-center sm:left-0 top-[3rem] sm:top-0 sm:relative 
                                 sm:basis-2/3 sm:flex sm:flex-wrap sm:justify-end sm:gap-12 sm:pr-8 sm:opacity-100 divide-y sm:divide-y-0`}>
