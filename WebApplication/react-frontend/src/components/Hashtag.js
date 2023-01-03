@@ -1,5 +1,5 @@
 import React from 'react'
-import worldIcon from '../images/test.png'
+import worldIcon from '../images/hashtag-icon.png'
 
 const Hashtag = (props) => {
   return (
