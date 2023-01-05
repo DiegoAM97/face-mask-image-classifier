@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'intro': "url('/src/images/home-background.jpg')",
-      }
+        'project' : "url('/src/images/dotted-map-bg.png')",
+      },
     },
   },
   plugins: [],
