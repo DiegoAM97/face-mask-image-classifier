@@ -8,6 +8,7 @@ module.exports = {
       backgroundImage: {
         'intro': "url('/src/images/home-background.jpg')",
         'project' : "url('/src/images/dotted-map-bg.png')",
+        'footer' : "url('/src/images/footer-background.jpg')"
       },
     },
   },
