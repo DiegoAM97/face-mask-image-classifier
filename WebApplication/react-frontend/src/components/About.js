@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className='p-10 gap-4 grid gird-cols-1 sm:grid-cols-2'>
         <div>
-            <p className='text-green-400 font-semibold text-lg pb-2'>About the project</p>
+            <p className='text-green-400 font-semibold text-lg pb-2'>ABOUT THE PROJECT</p>
             <p className='font-bold text-xl'>Learn about artificial intelligence</p>
             <div className='text-gray-700 text-sm font-serif font-semibold lg:grid lg:grid-cols-2'>
                 <Hashtag text='MACHINE LEARNING'/>
