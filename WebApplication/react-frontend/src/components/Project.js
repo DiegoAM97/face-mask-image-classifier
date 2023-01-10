@@ -14,7 +14,7 @@ const Project = () => {
     }
 
     return (
-        <section className='flex flex-col items-center p-10 bg-project'>
+        <section id='Project' className='flex flex-col items-center p-10 bg-project'>
             <div className='max-h-80 w-80'>
                 {
                     selectedImage && <img src={URL.createObjectURL(selectedImage)} alt='img-alt' className='my-4'></img>

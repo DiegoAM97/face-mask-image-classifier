@@ -7,7 +7,7 @@ import worldIcon from '../images/world-icon.png'
 const Contact = () => {
 
     return (
-        <div className='p-10 text-gray-700 text-sm font-serif font-semibold'>
+        <div id='Contact' className='p-10 text-gray-700 text-sm font-serif font-semibold'>
             <div className='text-green-400 font-semibold text-lg pb-2'>CONTACT</div>
             <ContactSection image={phoneIcon} text='555555555' />
             <ContactSection image={mailIcon} text='fake@fake.com' />

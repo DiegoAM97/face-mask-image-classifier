@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link as ScrollLink} from 'react-scroll'
 
 const NavbarMenu = () => {
 
@@ -22,7 +23,7 @@ const NavbarMenu = () => {
                     values.map( value => {
                     return <li key={value.id} 
                     className='cursor-pointer bg-gray-700 sm:bg-transparent py-3 
-                                sm:py-0 sm:hover:scale-125 hover:text-gray-400'>{value.text}</li>
+                                sm:py-0 sm:hover:scale-125 hover:text-gray-400'><ScrollLink to={value.text} smooth={true}>{value.text}</ScrollLink></li>
                     })
                 }
             </ul>

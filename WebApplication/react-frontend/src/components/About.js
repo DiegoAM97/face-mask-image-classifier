@@ -3,7 +3,7 @@ import Hashtag from './Hashtag'
 
 const About = () => {
   return (
-    <section className='p-10 gap-4 grid gird-cols-1 sm:grid-cols-2'>
+    <section id='About' className='p-10 gap-4 grid gird-cols-1 sm:grid-cols-2'>
         <div>
             <p className='text-green-400 font-semibold text-lg pb-2'>ABOUT THE PROJECT</p>
             <p className='font-bold text-xl'>Learn about artificial intelligence</p>
