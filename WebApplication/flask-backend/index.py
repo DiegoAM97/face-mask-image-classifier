@@ -1,9 +1,11 @@
 import numpy as np
 from model import make_prediction
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/predict-image', methods=['POST'])
 def predict_image():
@@ -17,8 +19,8 @@ def predict_image():
 							"bad_mask" : str(prob_3),
 							"prediction" : str(prediction)
 						})
-	except Exception as e:
-		return jsonify({"Error" : "Something went wrong! " + str(e)})
+	except Exception:
+		return 'Bad request', 400
 
 
 if __name__ == '__main__':
