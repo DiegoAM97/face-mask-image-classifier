@@ -25,10 +25,10 @@ const About = () => {
                 allowing to solve complex problems such as object classification or detection.
             </p>
             <p>
-                You want to classify 3 types of images: <br/>
-                    -Person without mask <br/>
-                    -Person with mask <br/>
-                    -Person with the mask incorrectly placed
+                It classifies 3 types of images: <br/>
+                    -Person with no face mask <br/>
+                    -Person with a face mask used correctly <br/>
+                    -Person with a face mask used incorrectly
             </p>
         </div>
     </section>
