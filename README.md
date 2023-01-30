@@ -1,6 +1,6 @@
 # Face mask image classifier
 
-Web application to make an image classification to a convolutional neural network (CNN). It predicts 3 possible scenarios: <br>
+Web application to make an image classification based on the convolutional neural network (CNN). It predicts 3 possible scenarios: <br>
     &nbsp;&nbsp; - Person with no face mask <br>
     &nbsp;&nbsp; - Person with a face mask used correctly <br>
     &nbsp;&nbsp; - Person with a face mask used incorrectly <br>
