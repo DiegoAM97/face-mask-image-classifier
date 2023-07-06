@@ -1,0 +1,4 @@
+AIModel/* linguist-vendored
+WebApplication/flask-backend/*.py linguist-detectable
+WebApplication/react-frontend/src/*.js linguist-detectable
+WebApplication/react-frontend/src/*.css linguist-detectable
